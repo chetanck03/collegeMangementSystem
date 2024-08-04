@@ -35,6 +35,8 @@ app.use("/api/subject", require("./routes/Other Api/subject.route"));
 app.use("/api/marks", require("./routes/Other Api/marks.route"));
 app.use("/api/branch", require("./routes/Other Api/branch.route"));
 
+
+
 app.listen(port, () => {
   console.log(`Server Listening On http://localhost:${port}`);
 });

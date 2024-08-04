@@ -268,7 +268,6 @@ const EditStudent = () => {
               Semester
             </label>
             <select
-              disabled
               id="semester"
               className="px-2 bg-blue-50 py-3 rounded-sm text-base w-full accent-blue-700 mt-1"
               value={data.semester}
@@ -290,7 +289,6 @@ const EditStudent = () => {
               Branch
             </label>
             <select
-              disabled
               id="branch"
               className="px-2 bg-blue-50 py-3 rounded-sm text-base w-full accent-blue-700 mt-1"
               value={data.branch}
